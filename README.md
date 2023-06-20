@@ -1,3 +1,7 @@
+*** NOTE ****
+
+This is a fork of Shaka 3.2.0 to fix an issue in the platform workarounds for Samsung 4K streams. Specifically this addresses NS-2235 which is that playback breaks on HEVC SSAI or switching from encrypted content to unencrypted HEVC content. Note that a PR against Shaka Player was finally merged in 4.x. When we upgrade to 4.x version we no longer need to maintain this branch
+
 # ![Shaka Player](docs/shaka-player-logo.png)
 
 Shaka Player is an open-source JavaScript library for adaptive media.  It plays
